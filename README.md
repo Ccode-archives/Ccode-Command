@@ -1,2 +1,2 @@
 # Ccode-Command
-install Ccode as a command
+Install Ccode as a command
