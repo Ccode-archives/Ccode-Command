@@ -26,7 +26,7 @@ make all
 cd ..
 git clone https://github.com/Ccode-lang/Ccode-Command.git
 cd Ccode-Command
-chmod +x
+chmod +x Ccode
 
 # usage
 ./Ccode <Ccode file>
