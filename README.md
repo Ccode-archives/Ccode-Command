@@ -25,6 +25,7 @@ cd Ccode
 make all
 cd ..
 git clone https://github.com/Ccode-lang/Ccode-Command.git
+cd Ccode-Command
 make macos
 
 # usage
