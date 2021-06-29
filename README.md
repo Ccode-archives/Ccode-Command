@@ -31,3 +31,5 @@ make macos
 # usage
 Ccode <Ccode file>
 ```
+# Uninstall mac
+Run ```sudo nano /etc/paths``` and delete line ~/Ccode-Command/bin/Ccode
