@@ -11,4 +11,4 @@ uninstall:
 macinst:
 	@sudo echo "~/Ccode-Command/bin" >> /etc/paths
 macuninst:
-	@sudo sed '/Ccode-command/d' /etc/paths
+	@sudo sed -i '/Ccode-Command/d' /etc/paths
