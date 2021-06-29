@@ -9,4 +9,5 @@ install:
 uninstall:
 	sudo rm /usr/bin/Ccode
 macinst:
-	@sudo echo "~/Ccode-Command/bin" >> /etc/paths
+	@read u; \
+	sudo echo "user-here/Ccode-Command/bin" >> /etc/paths;
