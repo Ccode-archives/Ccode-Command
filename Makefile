@@ -12,4 +12,4 @@ macinst:
 	@sudo echo "~/Ccode-Command/bin" >> /etc/paths
 macuninst:
 	cd /etc
-	@sudo gawk -i inplace '/Ccode/' myfile.txt
+	@sudo awk -i inplace '/Ccode/' paths > tmpfile && mv tmpfile paths
