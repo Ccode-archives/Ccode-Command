@@ -10,6 +10,3 @@ uninstall:
 	sudo rm /usr/bin/Ccode
 macinst:
 	@sudo echo "~/Ccode-Command/bin" >> /etc/paths
-macuninst:
-	cd /etc
-	@sudo awk -i inplace '/Ccode/' paths > tmpfile && mv tmpfile paths
