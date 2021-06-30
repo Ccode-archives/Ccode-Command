@@ -33,4 +33,5 @@ sudo make macos
 Ccode <Ccode file>
 ```
 # Uninstall mac
-Run ```sudo nano /etc/paths``` and delete line ~/Ccode-Command/bin/Ccode
+Run ```sudo nano /etc/paths``` and delete line ~/Ccode-Command/bin/Ccode, 
+restart your terminal then ```Ccode``` will say that Ccode command does not exist.
