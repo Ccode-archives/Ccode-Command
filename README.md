@@ -35,3 +35,10 @@ Ccode <Ccode file>
 # Uninstall mac
 Run ```sudo nano /etc/paths``` and delete line ~/Ccode-Command/bin/Ccode, 
 restart your terminal then ```Ccode``` will say that Ccode command does not exist.
+# Build deps
+1. make
+2. python2 or three
+# Run deps
+1. Bash
+2. python2 or three
+3. node and npm
