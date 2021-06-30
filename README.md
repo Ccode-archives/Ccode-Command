@@ -1,6 +1,6 @@
 # Ccode-Command
 Install Ccode as a command using steps below.
-## Linux (ubuntu/debian)
+## Linux (ubuntu/debian) or Windows (ubuntu/debian WSL app)
 ```bash
 cd ~
 git clone https://github.com/Ccode-lang/Ccode.git
