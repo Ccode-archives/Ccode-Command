@@ -1,1 +1,7 @@
+if [ $1 == "-h" or ] || [ $1 == "--help" ]
+then
+echo "Usage: Ccode <Ccode file path>"
+echo "Flags: -h/--help"
+echo "Flags are only used as a replacement of path to Ccode file."
+fi
 python ~/Ccode/Ccode.py $1
