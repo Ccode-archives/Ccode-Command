@@ -1,4 +1,4 @@
-py = "3"
+PY = "3"
 while getopts 'h:p' flag; do
   case "${flag}" in
     h) printf "options: Ccode <options> <filename> \n flags: -h(help), -p(used to change python version to run with to 2)\n"
@@ -6,4 +6,4 @@ while getopts 'h:p' flag; do
     p) py = "2";;
   esac
 done
-python$py ~/Ccode/Ccode.py $1
+python$PY ~/Ccode/Ccode.py $1
