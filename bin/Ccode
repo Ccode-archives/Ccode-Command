@@ -1,5 +1,5 @@
 PY="3"
-while getopts 'h:p' flag; do
+while getopts 'hp' flag; do
   case "${flag}" in
     h) printf "options: Ccode <options> <filename> \n flags: -h(help), -p(used to change python version to run with to 2)\n"
        exit 1 ;;
