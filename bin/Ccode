@@ -1,7 +1,7 @@
-if [ $1 == "-h" ] || [ $1 == "--help" ]
-then
-echo "Usage: Ccode <Ccode file path>"
-echo "Flags: -h/--help"
-echo "Flags are only used as a replacement of path to Ccode file."
-fi
+while getopts 'h' flag; do
+  case "${flag}" in
+    h) echo "options: Ccode <options> <filename> \n flags: -h"
+       exit 1 ;;
+  esac
+done
 python ~/Ccode/Ccode.py $1
