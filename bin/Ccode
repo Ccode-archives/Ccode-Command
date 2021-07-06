@@ -1,4 +1,4 @@
-if [ $1 == "-h" or ] || [ $1 == "--help" ]
+if [ $1 == "-h" ] || [ $1 == "--help" ]
 then
 echo "Usage: Ccode <Ccode file path>"
 echo "Flags: -h/--help"
