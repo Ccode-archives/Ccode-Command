@@ -1,5 +1,10 @@
 # Ccode-Command
 Install Ccode as a command using steps below.
+
+# How it works (Debian/Ubuntu)
+It makes a exe file in the /usr/bin folder that runs as "Ccode".
+# How it works (MacOS)
+It adds the bin folder to path and executes the Ccode command from the shell script.
 ## Linux (ubuntu/debian) or Windows (ubuntu/debian WSL app)
 ```bash
 cd ~
