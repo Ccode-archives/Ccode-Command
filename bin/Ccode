@@ -1,6 +1,6 @@
 while getopts 'h' flag; do
   case "${flag}" in
-    h) echo "options: Ccode <options> <filename> \n flags: -h"
+    h) printf "options: Ccode <options> <filename> \n flags: -h"
        exit 1 ;;
   esac
 done
