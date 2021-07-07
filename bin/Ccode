@@ -14,5 +14,5 @@ if [ ! $last == $0 ]
 then
   python$PY ~/Ccode/Ccode.py $last
 else
-  printf "No flags or file given"
+  printf "No flags or file given\n"
 fi
