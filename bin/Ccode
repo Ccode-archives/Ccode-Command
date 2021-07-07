@@ -10,8 +10,7 @@ while getopts 'hp' flag; do
   esac
 done
 eval last=\${$#}
-flag="-"
-if [ ! $last == $0 ] || [ ! $last == *"$flag"* ]
+if [ ! $last == $0 ] || [ ! $last == *-* ]
 then
   python$PY ~/Ccode/Ccode.py $last
 else
