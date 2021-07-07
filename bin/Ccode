@@ -10,4 +10,8 @@ while getopts 'hp' flag; do
   esac
 done
 eval last=\${$#}
-python$PY ~/Ccode/Ccode.py $last
+if [ ! $last == #0 ]; then
+  python$PY ~/Ccode/Ccode.py $last
+else
+  printf "no file given"
+fi
