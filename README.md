@@ -1,5 +1,11 @@
 # Ccode-Command
 Install Ccode as a command using steps below.
+# running
+```bash
+# running this way makes it run the main.cc file in the main directory
+Ccode
+# run with flags to choose the file to run
+```
 
 # How it works (Debian/Ubuntu)
 It makes a exe file in the /usr/bin folder that runs as "Ccode".
