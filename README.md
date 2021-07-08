@@ -4,9 +4,14 @@ Install Ccode as a command using steps below.
 ```bash
 # running this way makes it run the main.cc file in the main directory
 Ccode
-# run with flags to choose the file to run
+# run with -f flag to choose the file to run
 ```
-
+# Flag help
+```bash
+# run
+Ccode -h
+# To get the helo section
+```
 # How it works (Debian/Ubuntu)
 It makes a exe file in the /usr/bin folder that runs as "Ccode".
 # How it works (MacOS)
