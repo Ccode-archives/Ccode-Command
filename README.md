@@ -5,6 +5,9 @@ Install Ccode as a command using steps below.
 # running this way makes it run the main.cc file in the main directory
 Ccode
 # run with -f flag to choose the file to run
+
+# if you want to run the compiler on python2 run
+Ccode -p
 ```
 # Flag help
 ```bash
