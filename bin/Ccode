@@ -9,9 +9,3 @@ while getopts 'hpf:' flag; do
        exit 1 ;;
   esac
 done
-if [ run == 1 ]
-then
-  python$PY ~/Ccode/Ccode.py $file
-else
-  exit 1
-fi
