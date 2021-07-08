@@ -19,8 +19,7 @@ make
 # uninstallation (run in Ccode-Command folder)
 make uninstall
 
-# usage
-Ccode <Ccode file>
+
 ```
 ## MacOS
 ```bash
@@ -34,12 +33,11 @@ cd Ccode-Command
 nano Makefile #change user-here to your username
 sudo make macos
 
-# usage
-Ccode <Ccode file>
+
 ```
 # Uninstall mac
 Run ```sudo nano /etc/paths``` and delete line ~/Ccode-Command/bin/Ccode, 
-restart your terminal then ```Ccode``` will say that Ccode command does not exist.
+restart your terminal then ```Ccode``` will say that Ccode command does exist.
 # Build deps
 1. make
 2. python2 or three
