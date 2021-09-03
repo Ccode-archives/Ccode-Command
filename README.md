@@ -13,7 +13,7 @@ Ccode -p
 ```bash
 # run
 Ccode -h
-# To get the helo section
+# To get the hello section
 ```
 # How it works (Debian/Ubuntu)
 It makes a exe file in the /usr/bin folder that runs as "Ccode".
