@@ -44,7 +44,8 @@ make all
 cd ..
 git clone https://github.com/Ccode-lang/Ccode-Command.git
 cd Ccode-Command
-nano Makefile #change user-here to your username
+nano Makefile
+#change user-here to your username
 sudo make macos
 
 
