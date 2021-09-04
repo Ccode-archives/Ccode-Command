@@ -10,3 +10,4 @@ uninstall:
 	sudo rm /usr/bin/Ccode
 macinst:
 	sudo echo "/Users/user-here/Ccode-Command/bin" >> /etc/paths;
+# CHANGE USER_HERE IN LINE BEFORE TO YOUR USERNAME!!!
