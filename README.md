@@ -50,7 +50,7 @@ sudo make macos
 
 ```
 # Uninstall mac
-Run ```sudo nano /etc/paths``` and delete line ~/Ccode-Command/bin/Ccode, 
+Run ```sudo nano /etc/paths``` and delete line /Users/<your username>/Ccode-Command/bin, 
 restart your terminal then ```Ccode``` will say that Ccode command does exist.
 # Build deps
 1. make
