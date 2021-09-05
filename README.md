@@ -53,10 +53,8 @@ sudo make macos
 # Uninstall mac
 Run ```sudo nano /etc/paths``` and delete line /Users/<your username>/Ccode-Command/bin, 
 restart your terminal then ```Ccode``` will say that Ccode command does exist.
-# Build deps
+# Deps
 1. make
 2. python2 or three
-# Run deps
-1. Bash
-2. python2 or three
-3. node and npm
+3. Bash
+4. node and npm
