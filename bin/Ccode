@@ -1,16 +1,1 @@
-help () {
-  printf "options: Ccode <options> \n\nflags: -h(help), -p(used to change python version to run with to 2), -f (file name)\n"
-  exit $1
-}
-
-PY="3"
-file="main.cc"
-while getopts 'hpf:' flag; do
-  case "${flag}" in
-    h) help 0 ;;
-    p) PY="2" ;;
-    f) file="${OPTARG}" ;;
-    *) help 1 ;;
-  esac
-done
-python$PY ~/Ccode/Ccode.py $file
+python$PY ~/Ccode/Ccode.py $@
