@@ -2,18 +2,8 @@
 Install Ccode as a command using steps below.
 # running
 ```bash
-# running this way makes it run the main.cc file in the main directory
-Ccode
-# run with -f flag to choose the file to run
-
-# if you want to run the compiler on python2 run
-Ccode -p
-```
-# Flag help
-```bash
 # run
-Ccode -h
-# To get the hello section
+Ccode <file.cc> <args to pass>
 ```
 # How it works (Debian/Ubuntu)
 It makes a exe file in the /usr/bin folder that runs as "Ccode".
@@ -55,6 +45,6 @@ Run ```sudo nano /etc/paths``` and delete line /Users/< your username here >/Cco
 restart your terminal then ```Ccode``` will say that Ccode command does exist.
 # Deps
 1. make
-2. python2 or three
+2. three
 3. Bash
 4. node and npm
