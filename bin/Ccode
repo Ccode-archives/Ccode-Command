@@ -1,1 +1,1 @@
-python$PY ~/Ccode/Ccode.py $@
+python3 ~/Ccode/Ccode.py $@
